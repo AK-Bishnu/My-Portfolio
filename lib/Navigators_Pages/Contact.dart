@@ -167,7 +167,7 @@ class _ContactSectionState extends State<ContactSection> {
                         decoration: _commonBoxDecoration(context),
                         padding: const EdgeInsets.all(12),
                         child: Center(
-                          child: Lottie.asset('animation.json'),
+                          child: Lottie.asset('assets/animation.json'),
                         ),
                       ),
                     ),
@@ -187,7 +187,7 @@ class _ContactSectionState extends State<ContactSection> {
                     decoration: _commonBoxDecoration(context),
                     padding: const EdgeInsets.all(12),
                     child: Center(
-                      child: Lottie.asset('animation.json', height: 200),
+                      child: Lottie.asset('assets/animation.json', height: 200),
                     ),
                   ),
                 ],

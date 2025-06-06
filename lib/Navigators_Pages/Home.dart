@@ -115,7 +115,7 @@ class _HomeSectionState extends State<HomeSection>
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(100),
                           child: Image.asset(
-                            'meAvatar.jpg',
+                            'assets/meAvatar.jpg',
                             width: isLargeScreen ? 180 : 140,
                             height: isLargeScreen ? 180 : 140,
                             fit: BoxFit.cover,

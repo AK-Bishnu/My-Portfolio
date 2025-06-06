@@ -9,9 +9,9 @@ class SkillsSection extends StatelessWidget {
     final isDark = Theme.of(context).brightness == Brightness.dark;
 
     final programmingLanguages = <String, Widget>{
-      'C': Image.asset('c.png', width: 40, height: 40),
-      'C++': Image.asset('c++.png', width: 40, height: 40),
-      'Java': Image.asset('java.png', width: 40, height: 40),
+      'C': Image.asset('assets/C.png', width: 40, height: 40),
+      'C++': Image.asset('assets/c++.png', width: 40, height: 40),
+      'Java': Image.asset('assets/java.png', width: 40, height: 40),
       'Dart': FaIcon(
         FontAwesomeIcons.dartLang,
         size: 40,

@@ -2,6 +2,34 @@ import 'project_model.dart';
 
 final List<Project> projects = [
   Project(
+    title: 'AkShop',
+    shortDescription: 'A full-stack e-commerce mobile application built with Flutter and Django REST Framework.',
+    fullDescription: '''
+"AkShop" is a complete e-commerce mobile application developed using Flutter for the frontend and Django REST Framework for the backend. It provides a seamless shopping experience with product browsing, cart management, and order placement functionalities.
+
+The app supports user authentication (sign up, login, logout) and real-time data handling via REST APIs. Users can explore products, add items to the cart, and confirm orders, while all data is synchronized with the Django backend. The backend also includes an admin panel for managing products, users, and orders efficiently.
+
+The Flutter frontend offers a responsive and visually clean UI that enhances usability. The integration between Flutter and Django ensures secure communication using API endpoints for authentication, product retrieval, and order processing.
+
+This project demonstrates full-stack development skills, combining modern mobile UI/UX design with powerful backend logic. It aims to replicate the core functionality of a real-world e-commerce platform, serving as a strong example of a cross-platform, API-driven app architecture.
+''',
+    techStack: ['Flutter', 'Dart', 'Django REST Framework', 'SQLite', 'REST API'],
+    githubUrl: 'https://github.com/AK-Bishnu/Flutter-Django/tree/main/Ak%20Fashion',
+    mainImage: 'assets/akShop/akshopCover.png',
+    screenshots: [
+      'assets/akShop/adminPanel.png',
+      'assets/akShop/RegD.jpg',
+      'assets/akShop/loginD.jpg',
+      'assets/akShop/HomeD.jpg',
+      'assets/akShop/MenuD.jpg',
+      'assets/akShop/FavD.jpg',
+      'assets/akShop/CartD.jpg',
+      'assets/akShop/PD_D.jpg',
+      'assets/akShop/CreateOrdD.jpg',
+      'assets/akShop/OdersD.jpg',
+    ],
+  ),
+  Project(
     title: 'C With Fun',
     shortDescription: 'An interactive game that teaches C programming through levels and challenges.',
     fullDescription: '''
@@ -69,5 +97,6 @@ The purpose of building this game was to test Flutter’s capability for more co
 
     ],
   ),
+
 
 ];

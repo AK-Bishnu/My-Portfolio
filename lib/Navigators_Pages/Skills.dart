@@ -17,6 +17,13 @@ class SkillsSection extends StatelessWidget {
         size: 40,
         color: isDark ? Colors.lightBlue.shade300 : Colors.blue,
       ),
+    'Python': FaIcon(
+    FontAwesomeIcons.python,
+    size: 40,
+    color: isDark
+    ? const Color(0xFFFFD43B)  // golden yellow for dark mode
+        : const Color(0xFF3776AB), // official python blue for light mode
+    ),
     };
 
     final frameworksAndLibraries = <String, Widget?>{
@@ -25,6 +32,7 @@ class SkillsSection extends StatelessWidget {
         size: 40,
         color: isDark ? Colors.lightBlue.shade300 : Colors.blueAccent,
       ),
+      'Django': Image.asset('assets/django.png', width: 40, height: 40),
       'Java Swing': FaIcon(
         FontAwesomeIcons.java,
         size: 40,
@@ -35,7 +43,7 @@ class SkillsSection extends StatelessWidget {
         size: 40,
         color: isDark ? Colors.deepPurple.shade300 : Colors.deepPurple,
       ),
-      'Local Database\n(SQFlite)': Image.asset('sqlite.png', width: 40, height: 40),
+      'Local Database\n(SQFlite)': Image.asset('assets/sqlite.png', width: 40, height: 40),
       'REST API': Icon(
         Icons.cloud_queue,
         size: 40,

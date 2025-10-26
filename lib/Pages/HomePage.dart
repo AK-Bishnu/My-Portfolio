@@ -289,7 +289,7 @@ class _PortfolioHomePageState extends State<PortfolioHomePage>
                       children: [
                         CircleAvatar(
                           radius: 40,
-                          backgroundImage: AssetImage('meAvatar.jpg'),
+                          backgroundImage: AssetImage('assets/meAvatar.jpg'),
                         ),
                         const SizedBox(height: 12),
                         const Text(

@@ -180,14 +180,16 @@ class _HomeSectionState extends State<HomeSection>
                             size: isLargeScreen ? 20 : 18,
                           ),
                           const SizedBox(width: 6),
-                          Text(
-                            "Rajshahi, Bangladesh",
-                            style: TextStyle(
-                              fontSize: isLargeScreen ? 16 : 14,
-                              fontStyle: FontStyle.italic,
-                              color: isDark
-                                  ? Colors.deepPurple.shade200
-                                  : Colors.deepPurple.shade400,
+                          Flexible(
+                            child: Text(
+                              "Rajshahi, Bangladesh",
+                              style: TextStyle(
+                                fontSize: isLargeScreen ? 16 : 14,
+                                fontStyle: FontStyle.italic,
+                                color: isDark
+                                    ? Colors.deepPurple.shade200
+                                    : Colors.deepPurple.shade400,
+                              ),
                             ),
                           ),
                         ],

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'Project_Details.dart';
-import 'project_model.dart';
+import 'Project_Model.dart';
 
 class ProjectCard extends StatefulWidget {
   final Project project;

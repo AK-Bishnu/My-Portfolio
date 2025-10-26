@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'Project_Section_Helper/Project_List.dart';
-import 'Project_Section_Helper/project_card.dart';
+import 'Project_Section_Helper/Project_Card.dart';
 
 
 class ProjectsSection extends StatefulWidget {

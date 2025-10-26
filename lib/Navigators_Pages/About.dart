@@ -7,7 +7,7 @@ class AboutSection extends StatelessWidget {
   Widget build(BuildContext context) {
     final isDark = Theme.of(context).brightness == Brightness.dark;
 
-    final cardColorDark = const Color(0x662B006B); // deepPurple.shade900 with opacity ~0.4
+    final cardColorDark = const Color(0x662B006B);
     final cardColorLight = const Color(0x130E0EFA); // deepPurple with opacity ~0.07
 
     return Padding(

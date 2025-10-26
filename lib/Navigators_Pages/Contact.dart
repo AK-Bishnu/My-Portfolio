@@ -25,7 +25,7 @@ class _ContactSectionState extends State<ContactSection> {
       path: 'aronnoghosh049@gmail.com',
       queryParameters: {
         'subject': 'Message from $name',
-        'body': '$message',
+        'body': message,
       },
     );
 

@@ -8,7 +8,7 @@ class AboutSection extends StatelessWidget {
     final isDark = Theme.of(context).brightness == Brightness.dark;
 
     final cardColorDark = const Color(0x662B006B);
-    final cardColorLight = const Color(0x130E0EFA); // deepPurple with opacity ~0.07
+    final cardColorLight = const Color(0x130E0EFA);
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 32.0),

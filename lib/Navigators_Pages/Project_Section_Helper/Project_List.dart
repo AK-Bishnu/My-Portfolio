@@ -19,7 +19,7 @@ This project was developed as a client application, so the source code is privat
       'Dart',
       'Firebase Auth',
       'Firestore Database',
-      'State Management (Riverpod)',
+      'State Management(Riverpod)',
     ],
     mainImage: 'assets/cm_trader/cover.png',
     screenshots: [

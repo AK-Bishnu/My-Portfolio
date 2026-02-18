@@ -2,8 +2,43 @@ import 'Project_Model.dart';
 
 final List<Project> projects = [
   Project(
+    title: 'CM Trader (Clients Project)',
+    shortDescription:
+        'A production-level trading content mobile application built with Flutter and Firebase.',
+    fullDescription: '''
+"CM Trader" is a production-ready mobile application developed for a trading content platform. The app provides secure user authentication, premium trading content access, payment verification, and real-time content delivery.
+
+Users can sign in, view trading signals, watch premium videos, and manage their accounts through a clean and responsive interface. The app includes a role-based system with separate user and admin dashboards for content and user management.
+
+A secure video player system is implemented with screen recording and screenshot protection to prevent unauthorized content capture. Firebase services are used for authentication, database, and storage to ensure scalability and real-time synchronization.
+
+This project was developed as a client application, so the source code is private due to confidentiality requirements. It demonstrates real-world production app development, Firebase integration, secure media handling, and professional mobile app architecture.
+''',
+    techStack: [
+      'Flutter',
+      'Dart',
+      'Firebase Auth',
+      'Firestore Database',
+      'State Management (Riverpod)',
+    ],
+    mainImage: 'assets/cm_trader/cover.png',
+    screenshots: [
+      'assets/cm_trader/auth.jpeg',
+      'assets/cm_trader/signin.jpg',
+      'assets/cm_trader/userHome.jpg',
+      'assets/cm_trader/adminHome.jpg',
+      'assets/cm_trader/userM.jpg',
+      'assets/cm_trader/paymentChk.jpg',
+      'assets/cm_trader/support.jpg',
+      'assets/cm_trader/drawer.jpg',
+    ],
+    githubUrl: '',
+  ),
+
+  Project(
     title: 'AkShop',
-    shortDescription: 'A full-stack e-commerce mobile application built with Flutter and Django REST Framework.',
+    shortDescription:
+        'A full-stack e-commerce mobile application built with Flutter and Django REST Framework.',
     fullDescription: '''
 "AkShop" is a complete e-commerce mobile application developed using Flutter for the frontend and Django REST Framework for the backend. It provides a seamless shopping experience with product browsing, cart management, and order placement functionalities.
 
@@ -13,8 +48,15 @@ The Flutter frontend offers a responsive and visually clean UI that enhances usa
 
 This project demonstrates full-stack development skills, combining modern mobile UI/UX design with powerful backend logic. It aims to replicate the core functionality of a real-world e-commerce platform, serving as a strong example of a cross-platform, API-driven app architecture.
 ''',
-    techStack: ['Flutter', 'Dart', 'Django REST Framework', 'SQLite', 'REST API'],
-    githubUrl: 'https://github.com/AK-Bishnu/Flutter-Django/tree/main/Ak%20Fashion',
+    techStack: [
+      'Flutter',
+      'Dart',
+      'Django REST Framework',
+      'SQLite',
+      'REST API',
+    ],
+    githubUrl:
+        'https://github.com/AK-Bishnu/Flutter-Django/tree/main/Ak%20Fashion',
     mainImage: 'assets/akShop/akshopCover.png',
     screenshots: [
       'assets/akShop/adminPanel.png',
@@ -31,7 +73,8 @@ This project demonstrates full-stack development skills, combining modern mobile
   ),
   Project(
     title: 'C With Fun',
-    shortDescription: 'An interactive game that teaches C programming through levels and challenges.',
+    shortDescription:
+        'An interactive game that teaches C programming through levels and challenges.',
     fullDescription: '''
 "Learn C" is an interactive, game-based mobile application designed to help beginners learn the C programming language in a fun and engaging way. Instead of traditional tutorials, users progress through levels by completing coding tasks using real C syntax.
 
@@ -41,8 +84,9 @@ The project includes a range of levels that teach C concepts like variables, loo
 
 This project aims to make C programming approachable for newcomers, especially students, by making the learning process enjoyable and rewarding. It encourages self-paced exploration and provides immediate visual cues to help users understand where they went right or wrong in their logic.
 ''',
-    techStack: ['Flutter', 'Dart', 'JDoodle API', ],
-    githubUrl: 'https://github.com/AK-Bishnu/Flutter-Projects/tree/main/Learn%20C',
+    techStack: ['Flutter', 'Dart', 'JDoodle API'],
+    githubUrl:
+        'https://github.com/AK-Bishnu/Flutter-Projects/tree/main/Learn%20C',
     mainImage: 'assets/learn_c/c-1.jpg',
     screenshots: [
       'assets/learn_c/c-1.jpg',
@@ -55,7 +99,8 @@ This project aims to make C programming approachable for newcomers, especially s
   ),
   Project(
     title: 'Snake Game',
-    shortDescription: 'A classic Snake game,featuring smooth animations, dynamic gameplay.',
+    shortDescription:
+        'A classic Snake game,featuring smooth animations, dynamic gameplay.',
     fullDescription: '''
 The Snake Game is a classic arcade-style game developed using Flutter. It brings the nostalgic snake experience into a modern, responsive mobile interface. The game starts with a small snake and food items randomly placed on a grid. The player's goal is to eat as much food as possible without hitting the wall or itself.
 
@@ -65,8 +110,9 @@ The project was a challenge in managing timed state updates and collision detect
 
 The purpose of this project was to explore how Flutter can be pushed beyond typical UI into game development. It showcases my understanding of real-time state management, custom drawing, and performance optimization for interactive applications.
 ''',
-    techStack: ['Flutter', 'Dart', ],
-    githubUrl: 'https://github.com/AK-Bishnu/Flutter-Projects/tree/main/Snake%20Game',
+    techStack: ['Flutter', 'Dart'],
+    githubUrl:
+        'https://github.com/AK-Bishnu/Flutter-Projects/tree/main/Snake%20Game',
     mainImage: 'assets/snake/s-1.png',
     screenshots: [
       'assets/snake/s-1.png',
@@ -77,7 +123,8 @@ The purpose of this project was to explore how Flutter can be pushed beyond typi
   ),
   Project(
     title: 'Tetris Game',
-    shortDescription: 'A fully playable Tetris game, featuring smooth block movement.',
+    shortDescription:
+        'A fully playable Tetris game, featuring smooth block movement.',
     fullDescription: '''
 The Tetris Game is a block-dropping puzzle game recreated using Flutter without any external game engines. This project replicates the iconic gameplay where different-shaped blocks (tetrominoes) fall from the top, and the player must arrange them to form complete rows.
 
@@ -87,16 +134,14 @@ Developing Tetris in Flutter allowed me to dive deep into grid-based logic, pixe
 
 The purpose of building this game was to test Flutter’s capability for more complex, animated logic. It also served as a great exercise in thinking through real-time problem-solving, user interaction, and classic game algorithms.
 ''',
-    techStack: ['Flutter', 'Dart',  ],
-    githubUrl: 'https://github.com/AK-Bishnu/Flutter-Projects/tree/main/Tetris%20Game',
+    techStack: ['Flutter', 'Dart'],
+    githubUrl:
+        'https://github.com/AK-Bishnu/Flutter-Projects/tree/main/Tetris%20Game',
     mainImage: 'assets/tetris/t-1.png',
     screenshots: [
       'assets/tetris/t-1.png',
       'assets/tetris/t-2.png',
       'assets/tetris/t-3.png',
-
     ],
   ),
-
-
 ];

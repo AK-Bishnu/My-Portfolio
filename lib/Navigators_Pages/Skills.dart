@@ -11,19 +11,19 @@ class SkillsSection extends StatelessWidget {
     final programmingLanguages = <String, Widget>{
       'C': Image.asset('assets/C.png', width: 40, height: 40),
       'C++': Image.asset('assets/c++.png', width: 40, height: 40),
-      'Java': Image.asset('assets/java.png', width: 40, height: 40),
+      // 'Java': Image.asset('assets/java.png', width: 40, height: 40),
       'Dart': FaIcon(
         FontAwesomeIcons.dartLang,
         size: 40,
         color: isDark ? Colors.lightBlue.shade300 : Colors.blue,
       ),
-    'Python': FaIcon(
-    FontAwesomeIcons.python,
-    size: 40,
-    color: isDark
-    ? const Color(0xFFFFD43B)  // golden yellow for dark mode
-        : const Color(0xFF3776AB), // official python blue for light mode
-    ),
+    // 'Python': FaIcon(
+    // FontAwesomeIcons.python,
+    // size: 40,
+    // color: isDark
+    // ? const Color(0xFFFFD43B)  // golden yellow for dark mode
+    //     : const Color(0xFF3776AB), // official python blue for light mode
+    // ),
     };
 
     final frameworksAndLibraries = <String, Widget?>{
@@ -33,22 +33,22 @@ class SkillsSection extends StatelessWidget {
         color: isDark ? Colors.lightBlue.shade300 : Colors.blueAccent,
       ),
       'Django': Image.asset('assets/django.png', width: 40, height: 40),
-      'Java Swing': FaIcon(
-        FontAwesomeIcons.java,
-        size: 40,
-        color: isDark ? Colors.orange.shade300 : Colors.orange,
-      ),
-      'State Management\n(Provider)': Icon(
-        Icons.extension,
-        size: 40,
-        color: isDark ? Colors.deepPurple.shade300 : Colors.deepPurple,
-      ),
-      'Local Database\n(SQFlite)': Image.asset('assets/sqlite.png', width: 40, height: 40),
-      'REST API': Icon(
-        Icons.cloud_queue,
-        size: 40,
-        color: isDark ? Colors.tealAccent.shade100 : Colors.teal,
-      ),
+      // 'Java Swing': FaIcon(
+      //   FontAwesomeIcons.java,
+      //   size: 40,
+      //   color: isDark ? Colors.orange.shade300 : Colors.orange,
+      // ),
+      // 'State Management\n(Provider)': Icon(
+      //   Icons.extension,
+      //   size: 40,
+      //   color: isDark ? Colors.deepPurple.shade300 : Colors.deepPurple,
+      // ),
+      // 'Local Database\n(SQFlite)': Image.asset('assets/sqlite.png', width: 40, height: 40),
+      // 'REST API': Icon(
+      //   Icons.cloud_queue,
+      //   size: 40,
+      //   color: isDark ? Colors.tealAccent.shade100 : Colors.teal,
+      // ),
     };
 
 
